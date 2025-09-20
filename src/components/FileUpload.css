@@ -1,0 +1,44 @@
+.FileUpload {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  width: 80%;
+  max-width: 600px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: 500;
+  font-family: var(--font-family-roboto);
+}
+
+.form-group input[type="file"] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.FileUpload button {
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.FileUpload button:hover {
+  background-color: #0056b3;
+}

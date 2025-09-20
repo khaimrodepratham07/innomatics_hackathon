@@ -1,0 +1,52 @@
+.Results {
+  margin: 20px;
+  width: 90%;
+}
+
+.Results h2 {
+  font-family: var(--font-family-lato);
+  font-weight: 700;
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+}
+
+.result-card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.result-card h3 {
+  font-family: var(--font-family-roboto);
+  font-weight: 500;
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+.result-card .badge {
+  font-size: 1rem;
+  padding: 5px 10px;
+}
+
+.skills-list {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+}
+
+.skills-list li {
+  display: inline-block;
+  background-color: #e9ecef;
+  color: #333;
+  padding: 5px 10px;
+  border-radius: 4px;
+  margin: 5px;
+}
+
+.feedback {
+  margin-top: 15px;
+  font-style: italic;
+}

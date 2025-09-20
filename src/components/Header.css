@@ -1,0 +1,14 @@
+.Header {
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  padding: 40px 20px;
+  color: white;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.Header h1 {
+  font-family: var(--font-family-lato);
+  font-weight: 700;
+  font-size: 3rem;
+  margin: 0;
+}
